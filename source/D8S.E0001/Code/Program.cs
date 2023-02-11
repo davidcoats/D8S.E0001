@@ -18,7 +18,7 @@ namespace D8S.E0001
         {
             ServiceCollection serviceCollection = new();
 
-            serviceCollection.AddTransient()
+            //serviceCollection.AddTransient();
 
             ServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
         }
